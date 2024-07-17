@@ -1,0 +1,16 @@
+{
+  "extends": "../config/tsc.base.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "baseUrl": "./",
+    "module": "CommonJS",
+    "declaration": true,
+    "outDir": "./dist",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "rootDir": "./src",
+    "skipLibCheck": true
+  }
+}
